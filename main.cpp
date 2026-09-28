@@ -24,6 +24,10 @@ int main(){
 		V.push_back(num);
 	}
 
+	if (V.size()== 0){
+		cout<< "Error: input file is empty" << endl;
+		return 0;	}
+
 	//initialize variables
 	double sum =0;
 	double mean;
